@@ -36,7 +36,7 @@ export default function FeaturedEvents() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {events.map(event => (
             <div key={event.id} className="bg-white text-gray-900 rounded-lg overflow-hidden shadow-lg">
-              <img src={event.image} alt={event.title} className="w-full h-52 object-cover" />
+              <img src={event.image} alt={event.title} className="w-full h-52 object-cover " />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{event.title}</h3>
                 <p className="text-gray-600 mb-1">{event.date}</p>
