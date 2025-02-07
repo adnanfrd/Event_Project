@@ -15,7 +15,7 @@ const Login = () => {
   };
 
   return (
-    <div className="relative h-screen flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 mt-10 bg-gradient-to-r from-purple-500 to-pink-500">
+    <div className="relative h-screen flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 mt-10 bg-gradient-to-r from-pink-500 to-purple-500">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md text-center">
         <h2 className="text-3xl font-bold text-gray-900 mb-6">Welcome Back</h2>
         <p className="text-gray-600 mb-4">Login to access your account and manage your events.</p>
