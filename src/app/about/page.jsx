@@ -1,7 +1,7 @@
 import AboutSection from '@/components/AboutPage/AboutSection'
 import CTASectionAbout from '@/components/AboutPage/CTASectionAbout'
 import MissionSection from '@/components/AboutPage/MissionSection'
-import TeamSection from '@/components/AboutPage/teamMembers'
+import TeamMembers from '@/components/AboutPage/TeamMembers'
 import TestimonialsSection from '@/components/AboutPage/TestimonialsSection'
 import WhyChooseUs from '@/components/AboutPage/WhyChooseUs'
 import React from 'react'
@@ -12,7 +12,7 @@ const page = () => {
         <AboutSection/>
         <MissionSection/>
         <WhyChooseUs/>
-        <TeamSection/>
+        <TeamMembers/>
         <TestimonialsSection/>
         <CTASectionAbout/> 
     </div>

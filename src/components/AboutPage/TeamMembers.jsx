@@ -7,7 +7,7 @@ const teamMembers = [
   { name: "Michael Lee", role: "Head of Events", img: "/headofEvents.webp" },
 ];
 
-const TeamSection = () => {
+const TeamMembers = () => {
   return (
     <div className="bg-white text-gray-900 py-12 px-4 sm:px-6 lg:px-8 text-center">
       <div className="container mx-auto">
@@ -32,4 +32,4 @@ const TeamSection = () => {
   );
 };
 
-export default TeamSection;
+export default TeamMembers;
