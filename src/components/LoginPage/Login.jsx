@@ -15,9 +15,9 @@ const Login = () => {
   };
 
   return (
-    <div className="relative h-screen flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 mt-10 bg-gradient-to-r from-pink-500 to-purple-500">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md text-center">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">Welcome Back</h2>
+    <div className="flex items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8 p-8 bg-gradient-to-r from-pink-500 to-purple-500">
+      <div className="bg-white p-6 sm:p-8 rounded-lg shadow-lg w-full max-w-md text-center">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Welcome Back</h2>
         <p className="text-gray-600 mb-4">Login to access your account and manage your events.</p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -47,18 +47,18 @@ const Login = () => {
 
         <div className="my-4 text-gray-500">or log in with</div>
 
-        <div className="flex justify-center space-x-4">
-          <button className="flex items-center space-x-2 bg-gray-100 p-3 rounded-lg hover:bg-gray-200 transition">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+          <button className="flex justify-center items-center space-x-2 bg-gray-100 p-3 rounded-lg hover:bg-gray-200 transition w-full">
             <FcGoogle className="text-xl" />
-            <span>Google</span>
+            <span className="hidden sm:inline">Google</span>
           </button>
-          <button className="flex items-center space-x-2 bg-gray-100 p-3 rounded-lg text-blue-600 hover:bg-gray-200 transition">
+          <button className="flex justify-center items-center space-x-2 bg-gray-100 p-3 rounded-lg text-blue-600 hover:bg-gray-200 transition w-full">
             <Facebook className="text-xl" />
-            <span>Facebook</span>
+            <span className="hidden sm:inline">Facebook</span>
           </button>
-          <button className="flex items-center space-x-2 bg-gray-100 p-3 rounded-lg text-gray-900 hover:bg-gray-200 transition">
+          <button className="flex justify-center items-center space-x-2 bg-gray-100 p-3 rounded-lg text-gray-900 hover:bg-gray-200 transition w-full">
             <Github className="text-xl" />
-            <span>GitHub</span>
+            <span className="hidden sm:inline">GitHub</span>
           </button>
         </div>
 

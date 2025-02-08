@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-purple-600 to-pink-500 shadow-lg w-full fixed top-0 z-50">
+    <nav className="bg-gradient-to-r from-purple-600 to-pink-500 shadow-lg w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <Link href="/" className="text-2xl font-bold text-white">EventHub</Link>
