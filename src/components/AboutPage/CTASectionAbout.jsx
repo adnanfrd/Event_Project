@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CTASectionAbout = () => {
@@ -8,12 +9,12 @@ const CTASectionAbout = () => {
         <p className="text-lg sm:text-xl mb-6">
           Explore upcoming events and secure your spot now. Don’t miss out!
         </p>
-        <a
+        <Link
           href="/events"
           className="inline-block bg-purple-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition-all hover:bg-purple-700"
         >
           Browse Events
-        </a>
+        </Link>
       </div>
     </div>
   );
