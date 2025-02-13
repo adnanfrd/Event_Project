@@ -50,15 +50,15 @@ const Login = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
           <button className="flex justify-center items-center space-x-2 bg-gray-100 p-3 rounded-lg hover:bg-gray-200 transition w-full">
             <FcGoogle className="text-xl" />
-            <span className="hidden sm:inline">Google</span>
+            <span className=" sm:inline">Google</span>
           </button>
           <button className="flex justify-center items-center space-x-2 bg-gray-100 p-3 rounded-lg text-blue-600 hover:bg-gray-200 transition w-full">
             <Facebook className="text-xl" />
-            <span className="hidden sm:inline">Facebook</span>
+            <span className=" sm:inline">Facebook</span>
           </button>
           <button className="flex justify-center items-center space-x-2 bg-gray-100 p-3 rounded-lg text-gray-900 hover:bg-gray-200 transition w-full">
             <Github className="text-xl" />
-            <span className="hidden sm:inline">GitHub</span>
+            <span className=" sm:inline">GitHub</span>
           </button>
         </div>
 
